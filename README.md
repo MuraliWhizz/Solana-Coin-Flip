@@ -78,5 +78,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+##Folder Strucutre
+.
+├── next.config.mjs
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── public
+│   ├── head.jpeg
+│   ├── next.svg
+│   ├── tail.jpeg
+│   └── vercel.svg
+├── README.md
+├── src
+│   ├── app
+│   │   ├── CoinFlip.tsx
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── WalletConnect.tsx
+│   └── utils
+│       └── solanaUtils.ts
+├── tailwind.config.ts
+└── tsconfig.json
+
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 This README provides a solid starting point for your Solana Coinflip project. You can further customize it by adding specific details about your game mechanics, any unique features, or additional setup instructions that might be necessary for the Solana integration.
